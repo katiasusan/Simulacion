@@ -17,3 +17,16 @@ end
 %distribucion binomial B(8,p) 
  
 %la estimacion de la probabilidad p =
+p=0.15;
+%hallando pi
+pi=[];
+for i=1:m
+  pi(i)=(p^(i)*(1-p)^(8-i))*factorial(8)/(factorial(i)*factorial(8-i));
+end 
+
+
+%hallando T
+T=0;
+for i=1:m
+  T=T+((N(i)-n*pi(i))^2)/n*pi(i);  
+end
