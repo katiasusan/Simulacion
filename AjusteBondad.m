@@ -1,5 +1,5 @@
 %asumiendo una distribucion exponencial
-datos=[6, 7. 3, 4. 7, 3, 7, 2, 6, 3, 7, 8. 2, 1. 3,5, 8, 7];
+datos=[6, 7. 3, 4, 7, 3, 7, 2, 6, 3, 7, 8. 2, 1, 3,5, 8, 7];
 m=8;
 n=length(datos);
 
@@ -15,4 +15,5 @@ for i=1:n
 end
 
 %distribucion binomial B(8,p) 
-  
+ 
+%la estimacion de la probabilidad p =
